@@ -1,6 +1,6 @@
-<p>Liista de makers</p>
+<p>Lista de makers</p>
 <ul>
-    <li *ngFor="let maker of makers">
-        {{maker.name}} - {{maker.id}}
+    <li class="product.card" *ngFor="let maker of makers">
+        <h3>{{maker.name}} -{{maker.id}}</h3>
     </li>
 </ul>
